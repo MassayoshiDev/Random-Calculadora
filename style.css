@@ -64,7 +64,8 @@ h1{
     text-align: center;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    user-select: none
+    user-select: none;
+    font-weight: lighter;
 }
 
 .buttonOperation:hover{
