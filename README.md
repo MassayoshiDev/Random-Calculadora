@@ -1,0 +1,1 @@
+Criei o design de uma calculadora porque apareceu um vídeo com uma thumbnail que contia uma calculadora feita em CSS, então somente vendo a thumbnail, eu recrei o design da calculadora, pretendo torna-la funcional, mas ainda estou aprendendo JS.
