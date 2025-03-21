@@ -9,35 +9,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="result">
-            <h1>3.14159</h1>
-        </div>
+        <input id="result" readonly>
         <div class="buttonContainer">
             <div class="flex">
                 <div>
-                    <div class="button buttonOperation"><button><h1>+</h1></button></div>
-                    <div class="button buttonOperation"><button><h1>-</h1></button></div>
-                    <div class="button buttonOperation"><button><h1>*</h1></button></div>
-                    <div class="button buttonOperation"><button><h1>/</h1></button></div>
-                    <div class="button buttonOperation"><button><h1>C</h1></button></div>
+                    <div class="button buttonOperation"><button onclick="brotarNoDisplay('+')"><h1>+</h1></button></div>
+                    <div class="button buttonOperation"><button onclick="brotarNoDisplay('-')"><h1>-</h1></button></div>
+                    <div class="button buttonOperation"><button onclick="brotarNoDisplay('*')"><h1>*</h1></button></div>
+                    <div class="button buttonOperation"><button onclick="brotarNoDisplay('/')"><h1>/</h1></button></div>
+                    <div class="button buttonOperation"><button onclick="apagar('')"><h1>C</h1></button></div>
                 </div>
                 <div class="wrap">
-                    <div class="button buttonNumber"><button><h1>7</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>4</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>1</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>0</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('7')"><h1>7</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('4')"><h1>4</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('1')"><h1>1</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('0')"><h1>0</h1></button></div>
                 </div>
                 <div class="wrap">
-                    <div class="button buttonNumber"><button><h1>8</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>5</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>2</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>.</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('8')"><h1>8</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('5')"><h1>5</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('2')"><h1>2</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('.')"><h1>.</h1></button></div>
                 </div>
                 <div class="wrap">
-                    <div class="button buttonNumber"><button><h1>9</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>6</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>3</h1></button></div>
-                    <div class="button buttonNumber"><button><h1>=</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('9')"><h1>9</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('6')"><h1>6</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="brotarNoDisplay('3')"><h1>3</h1></button></div>
+                    <div class="button buttonNumber"><button onclick="calcular('')"><h1>=</h1></button></div>
                 </div>
             </div>
         </div>

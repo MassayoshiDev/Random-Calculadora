@@ -2,12 +2,20 @@ function print(msg) {
     console.log(msg)
 }
 
-const div = document.getElementById("button");
+const display = document.getElementById("result")
 
-div.addEventListener("mousedown", function() {
-    console.log("a");
-});
+function brotarNoDisplay(input) {
+    display.value += input;
+}
 
-div.addEventListener("mouseup", function() {
-    console.log("Soltou!");
-});
+function calcular() {
+    try {     
+        display.value = eval(display.value);
+    } catch(error) {
+        display.value = "Erro"
+    }
+}
+
+function apagar() {
+    display.value = ""
+}
