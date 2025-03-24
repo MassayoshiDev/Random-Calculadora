@@ -1,7 +1,3 @@
-function print(msg) {
-    console.log(msg)
-}
-
 const display = document.getElementById("result")
 
 function brotarNoDisplay(input) {
